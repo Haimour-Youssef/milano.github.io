@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#info {
+    /* background-color: rgb(235, 216, 255); */
+    width: 100%;
+    padding: 5px;
+    /* height: 32px; */
+}
+
+.active a {
+    color: red !important;
+}
+
+#logo {
+    width: 150px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media(max-width:768px) {
+    .endcarousel {
+        background-color: #e1dac7;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 12px !important;
+    }
+
+    .endcarousel p {
+        font-size: 10px !important;
+    }
+
+    .main {
+        margin-top: 10rem !important;
+    }
+
+    .d-inline {
+        font-size: x-small;
+    }
+}
+
+.fixed-top {
+    background-color: white;
+}
+
+nav .nav-item a:hover {
+    color: red !important;
+}
+
+#info .ms-auto div a {
+    cursor: pointer;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+
+#info .ms-auto div a:link {
+    text-decoration: none;
+}
+
+#info .ms-auto div a:visited {
+    text-decoration: none;
+}
+
+#info .ms-auto div a:hover {
+    text-decoration: none;
+}
+
+#info .ms-auto div a:active {
+    text-decoration: none;
+}
+
+.rounded-circle {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: #000;
+}
+
+.endcarousel {
+    background-color: #e1dac7;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.endcarousel p {
+    width: 80%;
+    font-size: 16px;
+    margin: auto;
+}
+
+.main {
+    margin-top: 8rem;
+}
+
+.caption {
+    background-color: #0000005a;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 30px;
+    color: white;
+    border: 1px solid black;
+    font-family: sans-serif;
+    /* font-weight: 400; */
+    text-align: center;
+}
+
+footer {
+    background-color: #e1dac7;
+}
+
+.cookies {
+    background-color: #dedfe0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+/* ---------- */
+.dropdown2:hover>#dropdownMenuButton2 {
+    display: block;
+}
+
+.dropdown2>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
